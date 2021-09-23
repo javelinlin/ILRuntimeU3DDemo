@@ -58,3 +58,14 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# jave.lin : Our Hot Fix Proj
+**/HotFixProj~/HotFix/[Oo]bj/*
+**/HotFixProj~/HotFix/[Bb]in/*
+!**/HotFixProj~/HotFix/*.csproj
+!**/HotFixProj~/HotFix/*.sln
+
+# jave.lin : ILRuntime Demo Proj
+**/_3rd/ILRuntime/Samples~/Basic Demo/HotFix_Project~/[Oo]bj/*
+**/_3rd/ILRuntime/Samples~/Basic Demo/HotFix_Project~/[Bb]in/*
+!**/_3rd/ILRuntime/Samples~/Basic Demo/HotFix_Project~/*.csproj
+!**/_3rd/ILRuntime/Samples~/Basic Demo/HotFix_Project~/*.sln
